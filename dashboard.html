@@ -10,7 +10,7 @@
 </style></head><body><main class="shell">
 <header class="hero"><div class="hero-row"><div><div class="eyebrow">NUTRITION AI · DAILY REPORT</div><h1>营养AI组日报在线表格</h1><p>运营行课、销转结果、销售个人与细分维度的一体化日报</p></div><div class="status"><span class="dot"></span><span id="heroStatus">正在读取最新数据</span></div></div></header>
 <nav class="toolbar"><a href="#overview">今日概览</a><a href="#team">团队整体</a><a href="#personal">销售个人</a><a href="#dimension">细分维度</a><label>指标期数 <select id="period"></select></label><a class="refresh-control" href="http://127.0.0.1:18765/" target="_blank" rel="noopener" title="仅管理员本机可用">刷新数据</a><button class="export" id="export">导出 Excel</button></nav>
-<div id="content"><div class="loading">正在加载“查询1”聚合数据…</div></div><footer class="footer">数据源：Excel「查询1」｜每天 14:00、22:00 自动更新｜仅展示聚合指标</footer>
+<div id="content"><div class="loading">正在加载“查询1”聚合数据…</div></div><footer class="footer">数据源：Excel「查询1」｜每天 13:50、22:05 刷新｜13:55、22:10 自动播报｜仅展示聚合指标</footer>
 </main><script>
 const AI='AI先锋组',MARKET='大盘组',ALL_PERIODS='__all__',broadcastStatuses=new Set(['销转中','运营中','进量中']);let dimensionPeriodName='',currentDimensionKey='age';
 const E=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
